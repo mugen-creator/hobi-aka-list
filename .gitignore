@@ -1,0 +1,12 @@
+node_modules/
+*.log
+*.bak
+*.db
+*.db-journal
+*.csv
+*.xlsx
+*.json.bak
+/tmp/
+hobi.db
+hobi-aka-list_*.csv
+hobi-aka-list_*.xlsx

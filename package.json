@@ -1,0 +1,22 @@
+{
+  "name": "hobi-aka-list",
+  "version": "1.0.0",
+  "description": "ホビ垢(推し活・ガチャ・コーデ系個人アカウント)PRリスト - X・Instagram自動収集",
+  "scripts": {
+    "collect:x": "node batch.js 20",
+    "collect:ig": "node ig_tags.js",
+    "profiles:x": "node scrape_profiles.js 2000",
+    "profiles:ig": "node ig_profiles_html.js",
+    "paste": "node repaste_v12.js",
+    "format": "node format_sheets.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "playwright": "^1.47.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "半田司哉 <hanmow165@gmail.com>",
+  "license": "UNLICENSED"
+}
